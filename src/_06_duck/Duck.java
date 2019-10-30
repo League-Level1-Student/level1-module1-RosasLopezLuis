@@ -4,11 +4,14 @@ public class Duck {
 	String favoriteFood; 
 	int numberOfFriends;
 	
+	
 	Duck(String favoriteFood, int numberOfFriends){
 		this.favoriteFood = favoriteFood;
 		this.numberOfFriends = numberOfFriends;
+
 	}
-	Dog(String ){
-		
+	
+	public void quack() {
+		System.out.println("Quack");
 	}
 }
